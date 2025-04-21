@@ -1,0 +1,324 @@
+
+
+body {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0;
+
+
+}
+.header{
+background-color: #f0a8aa ;
+border: 4px #f0a8aa solid;
+border-bottom: #f0a8aa 1px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+padding: 400px ;
+}
+.base {
+padding: 6px;
+}
+.header-links a {
+   background-color: #f0a8aa;
+color:#5c5858;
+padding: 0px 10px;
+text-decoration:none;
+margin: 10px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: large;
+}
+.header-links a:hover {
+background-color:#eb9b9c;
+    border-radius: 20px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .btn{ background-color:#5c5858;
+   color:#ded7d7;
+   border: 4px;
+   font-family:"Playfair Display", serif ;
+   padding: 0 10px;
+
+ }
+ .header-links button {
+    background-color:#f0a8aa ;
+    color: #5c5858;
+    border: 4px;
+    font-family:"Playfair Display", serif ;
+    padding: 0 10px;
+ }
+ .btn:hover {
+background-color:#bcb4b4; 
+border-radius: 20px ;
+ }
+ .landing-page{
+       background-color:#f2cec0;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       color:#5c5858 ;
+       padding:0px 0px 0px 10px ;
+       border:1px #0a0a0a;
+       
+      
+ }
+ .landing-page-search input {
+   border-radius:20px ;
+   outline: none;
+border: none;
+height:10px;
+padding: 5px;
+background-color:#fff;
+ }
+ .landing-page-search button {
+position: absolute;
+left: 141px;
+   border-radius: 20px;
+   height: 20px;
+   padding: 0px 5px 5px 5px;
+ }
+ .landing-page-text h1 {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 400;
+font-size: 50px;
+line-height: 1.3;
+
+
+
+color: #000000;
+}
+.landing-page-text p {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+   font-size: larger;
+}
+.landing-page-text a {
+   display:inline-block;
+color: #5c5858;
+background-color: #f0a8aa;
+border-radius: 60px;
+text-decoration: none;
+font-size: 15px;
+padding: 5px;
+margin: 5px;
+font-size: medium;
+}
+.landing-page-text a:hover{
+   background-color: #eb9b9c;
+}
+ .landing-page-image img{
+   border-radius: 0px 0px 70px 0 ;
+ }
+
+.About-page {
+   background-color: #efcebf;
+   margin:0%;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+padding-top: 150px;
+padding-bottom: 150px;
+
+}
+.Info .htt{
+ color: #eb9b9c; 
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+font-size: larger;
+padding-left: 400px;
+padding-top: 100px;
+}
+
+.hth { 
+   color:#5c5858 ;
+   font-size: 10px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: medium;
+ }
+.row {
+display:flex;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+padding: 10px;
+padding-left:40px ;
+}
+.row .Info p {
+   font-size: 15px;
+   color: #5c5858;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-left: 400px;
+font-size: larger;
+
+}
+.row .items h2 {
+   color: #eb9b9c;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: larger;
+padding:0px 400px 0px 400px ;
+align-items: center;
+}
+ .row .items p {
+   font-size: 15px;
+   color: #5c5858;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-left: 400px;
+font-size: larger;
+ }
+ .Menu-page{
+background-color: #efcebf;
+border: #030303;
+padding-top: 50px;
+padding-bottom: 50px;
+ }
+.header_menu{
+text-align: center;
+}
+.header_menu span{
+   color:#f0a8aa;
+   font-size: large;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header_menu h3{
+   color:#5c5858;
+   margin: 0px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Menu-page.row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 2rem;
+   grid-template-columns: repeat(1 rem);
+padding: 300px;
+
+}
+.contnair h3{
+   color: #000000;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: larger;
+margin-bottom: 0%;
+}
+.contnair img{
+padding-left: 50px;
+
+}
+.contnair_p p{
+color: #5c5858;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.price {
+   color:#5c5858;
+border:1PX solid #efc0aa;
+padding: 20PX;
+margin: auto;
+
+}
+.col{
+padding:50px;
+   padding-top: 100px;
+   
+}
+
+.contnair{
+   display:flex;
+   gap: 2rem;
+padding-top: 5px;
+margin: 40px 0;
+border:1px solid #e4baa6 ;
+padding: 20px 20px;
+   
+}
+.TESTIMONIALS-page{
+   background-color: #efcebf;
+   margin: 0%;
+}
+.TESTIMONIALS-text{
+   text-align: center;
+   padding-top: 30PX;
+   padding-bottom: 100PX;
+   color:#5c5858;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.TESTIMONIALS-page .row{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 2rem;
+text-align: center;
+padding: 30PX;
+padding-top: 100PX;
+padding-bottom: 200px;
+}
+.CLIENTS {
+background-color:#f0a8aa;
+padding: 20PX;
+border-radius: 20px;
+
+}
+.CLIENTS1 {
+   background-color:#f0a8aa;
+   padding: 30PX;
+   border-radius: 20px;
+}
+.CLIENTS1 h3{
+   margin-top: 0%;
+color:black;
+}
+.CLIENTS1 P{
+   color: #5c5858;
+   font-size: larger;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.CLIENTS1 img{
+   margin-top: -90px;
+}
+.CLIENTS h4{
+   margin-top: 0%;
+color:#ffd4be;
+
+}
+.CLIENTS img{
+margin-top: -60px;
+
+}
+.CLIENTS P{
+color: #5c5858;
+
+}
+.contact-text span{
+   color: #000000;
+}
+.contact-text h3{
+   color: #0a0a0a
+}
+.contact-text p{
+   color: #0a0707;
+}
+.contact-text i{
+   color: #1687a3;
+   margin-bottom: 40px;
+   text-align: center;
+}
+.reservation-form button {
+   background-color: #000000;
+   color: rgb(251, 252, 250);
+   padding: 12px 30px;
+   border-radius: 25px;
+   border:none ;
+
+ }
+ 
+ .reservation-form button:hover {
+   background-color: #eb9b9c;
+ }
+
+.contact-info p{
+   color: #0068c9;
+}
+.contact{
+   color: #df3535;
+}
+.contact-page{
+   background-color:#f2cec0;
+   padding: 40px 20px;
+   margin: 0;
+}
